@@ -2,13 +2,42 @@
 
 @import "tailwindcss";
 
-*{
+* {
   font-family: "Outfit", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fafbf9;
+  color: #17211d;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
 @theme {
-  --color-primary: #2563EB;
-  --color-primary-dull: #1F58D8;
-  --color-light: #F1F5F9;
-  --color-borderColor: #c4c7d2;
+  /* Main brand */
+  --color-primary: #123c32;
+  --color-primary-dull: #0d3028;
+
+  /* Backgrounds */
+  --color-light: #f1f5f2;
+
+  /* Borders */
+  --color-borderColor: #e2e8e4;
+
+  /* Luxury accent */
+  --color-gold: #c6a15b;
 }
